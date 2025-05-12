@@ -7,13 +7,12 @@ body {
 	justify-content: center;
 	align-items: center; 
 	background-image: url("arcane.jpg");	
-	background-size: auto;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-size: cover;
 }
 
 .box {
-	width: 550px; 
+	width: 90%; 
+	max-widht: 550px;
 	height: auto;
 	background-color: lightyellow;
 	opacity: 0.75;
