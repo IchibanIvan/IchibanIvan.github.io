@@ -32,7 +32,7 @@ body {
 
 .box {
 	width: 90%; 
-	max-widht: 550px;
+	max-width: 550px;
 	height: auto;
 	background-color: lightyellow;
 	opacity: 0.75;
