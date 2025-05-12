@@ -9,6 +9,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center; 
+	flex-direction: column; 
 	background-image: url("arcane.jpg");	
 	background-size: cover;
 	background-position: center;
