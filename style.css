@@ -1,18 +1,35 @@
 body {
 	background-color: DarkSlateGray;
-	margin: 0px;
-	padding: 0px;
+	font-zei: 16px;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
 	height: 100%;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center; 
 	background-image: url("arcane.jpg");	
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 14px;
+	}
+	.box {
+		padding: 10px;
+	}
+	p {
+		padding: 8px;
+	}
 }
 
 .box {
 	width: 90%; 
-	max-widht: 550px;
+	max-widht: 700px;
 	height: auto;
 	background-color: lightyellow;
 	opacity: 0.75;
