@@ -16,11 +16,13 @@ body {
 	background-repeat: no-repeat;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
 	body {
 		font-size: 14px;
 	}
 	.box {
+		max-width: 800px;
+		width: 80%;
 		padding: 10px;
 	}
 	p {
