@@ -29,13 +29,13 @@ body {
 
 .box {
 	width: 90%; 
-	max-widht: 700px;
+	max-widht: 550px;
 	height: auto;
 	background-color: lightyellow;
 	opacity: 0.75;
 	border: 2px solid black;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 20px;
 	box-sizing: border-box; 
 	text-align: center; 
 }
