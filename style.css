@@ -18,13 +18,18 @@ body {
 
 @media (max-width: 768px) {
 	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 0 10px;
 		font-size: 14px;
 	}
 	.box {
 		max-width: 800px;
 		max-height: 80vh;
-		width: 90%;
-		padding: 20px;
+		width: 100%;
+		padding: 15px;
+		overflow-y: auto;
 	}
 	p {
 		padding: 8px;
@@ -33,7 +38,7 @@ body {
 
 .box {
 	width: 90%; 
-	max-height: 80vh:
+	max-height: 80vh;
 	max-width: 550px;
 	height: auto;
 	background-color: lightyellow;
@@ -43,7 +48,7 @@ body {
 	padding: 20px;
 	box-sizing: border-box; 
 	text-align: center; 
-	overflow-y:auto;
+	overflow-y: auto;
 }
 
 p {
